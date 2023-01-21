@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Moving Pets</string>
+
+    <string name="hint_username"> email@example.com </string>
+    <string name="hint_password"> password </string>
+    
+    <string name="error_invalid_credentials"> Credenciais Inválidas </string>
+    
+    <string name="action_authenticate"> Entrar </string>
+
+    <string name="enter_text"> Entrar </string>
+
+    <string name="management_text"> Gestão </string>
+
+    <string name="Pet_Universal_text"> Pet Universal </string>
+
+    <string name="insert_text"> Sistema de gestão para veterinária </string>
+
+    <string name="forget_password"> Esqueceu-se da sua password? </string>
+
+    <string name="Concentrador_1"> Concentrador 1 </string>
+
+    <string name="Concentrador_2"> Concentrador 2 </string>
+
+    <string name="submit_1"> Submeter </string>
+
+    <string name="submit_2"> Submeter </string>
+
+    <string name="nome_animal"> Nome: </string>
+
+</resources>

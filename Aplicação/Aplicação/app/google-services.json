@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "411317337694",
+    "firebase_url": "https://movingpets-1a6db-default-rtdb.firebaseio.com",
+    "project_id": "movingpets-1a6db",
+    "storage_bucket": "movingpets-1a6db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411317337694:android:9ef0db4dacc91b5f4bfecf",
+        "android_client_info": {
+          "package_name": "com.example.moving_pets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411317337694-gjvmm40tfmeho6llphfp9gunvrdk46kf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc1OdjnOqzHcmc4CV4-jkaV6q6eHeXhX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411317337694-gjvmm40tfmeho6llphfp9gunvrdk46kf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
