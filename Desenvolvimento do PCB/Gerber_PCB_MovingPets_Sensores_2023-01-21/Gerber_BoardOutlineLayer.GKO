@@ -1,0 +1,21 @@
+G04 Layer: BoardOutlineLayer*
+G04 EasyEDA v6.5.22, 2023-01-21 16:45:32*
+G04 4a6858e99da5455eb5449b68f4786d1d,dfc3211adda64e72838fb7ae4655844f,10*
+G04 Gerber Generator version 0.2*
+G04 Scale: 100 percent, Rotated: No, Reflected: No *
+G04 Dimensions in millimeters *
+G04 leading zeros omitted , absolute positions ,4 integer and 5 decimal *
+%FSLAX45Y45*%
+%MOMM*%
+
+%ADD10C,0.9000*%
+D10*
+X2565400Y5346700D02*
+G01*
+X2565400Y2971800D01*
+X5638800Y2971800D01*
+X5638800Y5346700D01*
+X2565400Y5346700D01*
+
+%LPD*%
+M02*
