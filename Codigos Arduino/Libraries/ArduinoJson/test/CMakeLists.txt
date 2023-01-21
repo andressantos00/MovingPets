@@ -1,76 +1,30 @@
-# ArduinoJson - arduinojson.org
-# Copyright Benoit Blanchon 2014-2018
+# ArduinoJson - https://arduinojson.org
+# Copyright © 2014-2022, Benoit BLANCHON
 # MIT License
 
-if(CMAKE_CXX_COMPILER_ID MATCHES "(GNU|Clang)")
-	add_compile_options(
-		-pedantic
-		-Wall
-		-Wcast-align
-		-Wcast-qual
-		-Wconversion
-		-Wctor-dtor-privacy
-		-Wdisabled-optimization
-		-Werror
-		-Wextra
-		-Wformat=2
-		-Winit-self
-		-Wmissing-include-dirs
-		-Wnon-virtual-dtor
-		-Wold-style-cast
-		-Woverloaded-virtual
-		-Wparentheses
-		-Wredundant-decls
-		-Wshadow
-		-Wsign-promo
-		-Wstrict-aliasing
-		-Wstrict-overflow=5
-		-Wundef
-	)
+set(CMAKE_CXX_STANDARD 98)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-	if(NOT MINGW)
-		add_compile_options(
-			-std=c++98
-		)
-	endif()
-endif()
+add_subdirectory(catch)
 
-if(CMAKE_CXX_COMPILER_ID MATCHES "GNU")
-	add_compile_options(
-		-Wstrict-null-sentinel
-	)
+link_libraries(ArduinoJson catch)
 
-	if(CMAKE_CXX_COMPILER_VERSION VERSION_GREATER 4.5)
-		add_compile_options(-Wlogical-op) # the flag exists in 4.4 but is buggy
-	endif()
-
-	if(CMAKE_CXX_COMPILER_VERSION VERSION_GREATER 4.6)
-		add_compile_options(-Wnoexcept)
-	endif()
-endif()
-
-if(CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-	add_compile_options(
-		-Wc++11-compat
-		-Wdeprecated-register
-	)
-endif()
-
-if(MSVC)
-	add_definitions(-D_CRT_SECURE_NO_WARNINGS)
-	add_compile_options(
-		/W4 # Set warning level
-		/WX # Treats all compiler warnings as errors.
-	)
-endif()
-
-add_subdirectory(DynamicJsonBuffer)
+include_directories(Helpers)
+add_subdirectory(Cpp11)
+add_subdirectory(Cpp17)
+add_subdirectory(Cpp20)
+add_subdirectory(FailingBuilds)
 add_subdirectory(IntegrationTests)
 add_subdirectory(JsonArray)
-add_subdirectory(JsonBuffer)
+add_subdirectory(JsonDeserializer)
+add_subdirectory(JsonDocument)
 add_subdirectory(JsonObject)
+add_subdirectory(JsonSerializer)
 add_subdirectory(JsonVariant)
-add_subdirectory(JsonWriter)
+add_subdirectory(MemoryPool)
 add_subdirectory(Misc)
-add_subdirectory(Polyfills)
-add_subdirectory(StaticJsonBuffer)
+add_subdirectory(MixedConfiguration)
+add_subdirectory(MsgPackDeserializer)
+add_subdirectory(MsgPackSerializer)
+add_subdirectory(Numbers)
+add_subdirectory(TextFormatter)
