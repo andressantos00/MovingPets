@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">196398189190-3nipeh3crrfmjs15m8g8h7alsjlilgum.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://movingpetsdatabase-default-rtdb.europe-west1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">196398189190</string>
+    <string name="google_api_key" translatable="false">AIzaSyCSpOVLDVnQmBFTAIAnlacbA6VQd_TxMe0</string>
+    <string name="google_app_id" translatable="false">1:196398189190:android:c150cfa1b3b2600dc15f07</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCSpOVLDVnQmBFTAIAnlacbA6VQd_TxMe0</string>
+    <string name="google_storage_bucket" translatable="false">movingpetsdatabase.appspot.com</string>
+    <string name="project_id" translatable="false">movingpetsdatabase</string>
+</resources>
